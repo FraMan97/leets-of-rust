@@ -1,4 +1,4 @@
-use leets_of_rust::array_string::{can_place_flowers::can_place_flowers, gcd_of_strings::gcd_of_strings, increasing_triplet_subsequence::increasing_triplet_subsequence, kids_with_candies::kids_with_candies, merge_strings_alternately::merge_strings_alternately, product_array_except_self::product_array_except_self, reverse_vowels_string::reverse_vowels_string, reverse_words_string::reverse_words_in_string, string_compression::string_compression};
+use leets_of_rust::{array_string::{can_place_flowers::can_place_flowers, gcd_of_strings::gcd_of_strings, increasing_triplet_subsequence::increasing_triplet_subsequence, kids_with_candies::kids_with_candies, merge_strings_alternately::merge_strings_alternately, product_array_except_self::product_array_except_self, reverse_vowels_string::reverse_vowels_string, reverse_words_string::reverse_words_in_string, string_compression::string_compression}, two_pointers::move_zeros::move_zeros};
 
 
 
@@ -68,4 +68,12 @@ fn test_string_compression(){
     let mut nums = vec!['a','a','b','b','c','c','c'];
     let result = string_compression(&mut nums);
     assert_eq!(result, 6);
+}
+
+#[test]
+fn test_move_zeros(){
+    let mut nums = vec![0,1,0,3,12];
+    move_zeros(&mut nums);
+    assert_eq!(nums, [1,3,12,0,0]);
+
 }
