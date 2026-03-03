@@ -29,6 +29,7 @@
 | **Increasing Triplet Subsequence** | Medium | O(n) | O(1) | ✅ Completed |
 | **String Compression** | Medium | O(n) | O(1) | ✅ Completed |
 | **Move Zeroes** | Easy | O(n) | O(1) | ✅ Completed |
+| **Is Subsequence** | Easy | O(n) | O(1) | ✅ Completed |
 
 ---
 

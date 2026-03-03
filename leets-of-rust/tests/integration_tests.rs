@@ -1,4 +1,4 @@
-use leets_of_rust::{array_string::{can_place_flowers::can_place_flowers, gcd_of_strings::gcd_of_strings, increasing_triplet_subsequence::increasing_triplet_subsequence, kids_with_candies::kids_with_candies, merge_strings_alternately::merge_strings_alternately, product_array_except_self::product_array_except_self, reverse_vowels_string::reverse_vowels_string, reverse_words_string::reverse_words_in_string, string_compression::string_compression}, two_pointers::move_zeros::move_zeros};
+use leets_of_rust::{array_string::{can_place_flowers::can_place_flowers, gcd_of_strings::gcd_of_strings, increasing_triplet_subsequence::increasing_triplet_subsequence, kids_with_candies::kids_with_candies, merge_strings_alternately::merge_strings_alternately, product_array_except_self::product_array_except_self, reverse_vowels_string::reverse_vowels_string, reverse_words_string::reverse_words_in_string, string_compression::string_compression}, two_pointers::{is_subsequence::is_subsequence, move_zeros::move_zeros}};
 
 
 
@@ -76,4 +76,12 @@ fn test_move_zeros(){
     move_zeros(&mut nums);
     assert_eq!(nums, [1,3,12,0,0]);
 
+}
+
+#[test]
+fn test_is_subsequence(){
+    let s = "abc";
+    let t = "ahbgdc";
+    let result = is_subsequence(&s, &t);
+    assert_eq!(result, true);
 }
