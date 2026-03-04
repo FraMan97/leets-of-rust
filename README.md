@@ -30,6 +30,7 @@
 | **String Compression** | Medium | O(n) | O(1) | ✅ Completed |
 | **Move Zeroes** | Easy | O(n) | O(1) | ✅ Completed |
 | **Is Subsequence** | Easy | O(n) | O(1) | ✅ Completed |
+| **Container With Most Water** | Medium | O(n) | O(1) | ✅ Completed |
 
 ---
 

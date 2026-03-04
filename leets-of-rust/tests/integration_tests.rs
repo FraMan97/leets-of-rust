@@ -1,4 +1,4 @@
-use leets_of_rust::{array_string::{can_place_flowers::can_place_flowers, gcd_of_strings::gcd_of_strings, increasing_triplet_subsequence::increasing_triplet_subsequence, kids_with_candies::kids_with_candies, merge_strings_alternately::merge_strings_alternately, product_array_except_self::product_array_except_self, reverse_vowels_string::reverse_vowels_string, reverse_words_string::reverse_words_in_string, string_compression::string_compression}, two_pointers::{is_subsequence::is_subsequence, move_zeros::move_zeros}};
+use leets_of_rust::{array_string::{can_place_flowers::can_place_flowers, gcd_of_strings::gcd_of_strings, increasing_triplet_subsequence::increasing_triplet_subsequence, kids_with_candies::kids_with_candies, merge_strings_alternately::merge_strings_alternately, product_array_except_self::product_array_except_self, reverse_vowels_string::reverse_vowels_string, reverse_words_string::reverse_words_in_string, string_compression::string_compression}, two_pointers::{container_with_most_water::container_with_most_water, is_subsequence::is_subsequence, move_zeros::move_zeros}};
 
 
 
@@ -84,4 +84,11 @@ fn test_is_subsequence(){
     let t = "ahbgdc";
     let result = is_subsequence(&s, &t);
     assert_eq!(result, true);
+}
+
+#[test]
+fn test_container_with_most_water() {
+    let height = [1,8,6,2,5,4,8,3,7];
+    let result = container_with_most_water(&height);
+    assert_eq!(result, 49);
 }
