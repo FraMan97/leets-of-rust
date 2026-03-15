@@ -39,6 +39,7 @@
 | **Find the Highest Altitude** | Easy | O(n) | O(1) | ✅ Completed |
 | **Find Pivot Index** | Easy | O(n) | O(1) | ✅ Completed |
 | **Find the Difference of Two Arrays** | Easy | O(n) | O(n + m) | ✅ Completed |
+| **Unique Number of Occurrences** | Easy | O(n) | O(n + m) | ✅ Completed |
 
 
 ---
