@@ -40,6 +40,7 @@
 | **Find Pivot Index** | Easy | O(n) | O(1) | ✅ Completed |
 | **Find the Difference of Two Arrays** | Easy | O(n) | O(n + m) | ✅ Completed |
 | **Unique Number of Occurrences** | Easy | O(n) | O(n + m) | ✅ Completed |
+| **Determine if Two Strings Are Close** | Easy | O(n+klogk) | O(k) | ✅ Completed |
 
 
 ---
