@@ -1,3 +1,4 @@
 pub mod find_differences_two_arrays;
 pub mod unique_number_occurrences;
 pub mod determine_if_two_strings_are_close;
+pub mod equal_row_and_column_pairs;

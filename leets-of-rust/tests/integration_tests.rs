@@ -1,4 +1,4 @@
-use leets_of_rust::{array_string::{can_place_flowers::can_place_flowers, gcd_of_strings::gcd_of_strings, increasing_triplet_subsequence::increasing_triplet_subsequence, kids_with_candies::kids_with_candies, merge_strings_alternately::merge_strings_alternately, product_array_except_self::product_array_except_self, reverse_vowels_string::reverse_vowels_string, reverse_words_string::reverse_words_in_string, string_compression::string_compression}, hash_map_set::{determine_if_two_strings_are_close::determine_if_two_strings_are_close, find_differences_two_arrays::find_differences_two_arrays, unique_number_occurrences::unique_number_occurrences}, prefix_sum::{find_pivot_index::find_pivot_index, highest_altitude::find_highest_altitude}, sliding_window::{longest_subarray_1_after_deleting_one_element::longest_subarray_1_after_deleting_one_element, maximum_average_subarray::maximum_average_subarray, maximum_consecutive_ones::maximum_consecutive_ones, maximum_number_vowels_substring::maximum_number_vowels_substring}, two_pointers::{container_with_most_water::container_with_most_water, is_subsequence::is_subsequence, max_number_ksum_pairs::max_number_ksum_pairs, move_zeros::move_zeros}};
+use leets_of_rust::{array_string::{can_place_flowers::can_place_flowers, gcd_of_strings::gcd_of_strings, increasing_triplet_subsequence::increasing_triplet_subsequence, kids_with_candies::kids_with_candies, merge_strings_alternately::merge_strings_alternately, product_array_except_self::product_array_except_self, reverse_vowels_string::reverse_vowels_string, reverse_words_string::reverse_words_in_string, string_compression::string_compression}, hash_map_set::{determine_if_two_strings_are_close::determine_if_two_strings_are_close, equal_row_and_column_pairs::equal_row_and_column_pairs, find_differences_two_arrays::find_differences_two_arrays, unique_number_occurrences::unique_number_occurrences}, prefix_sum::{find_pivot_index::find_pivot_index, highest_altitude::find_highest_altitude}, sliding_window::{longest_subarray_1_after_deleting_one_element::longest_subarray_1_after_deleting_one_element, maximum_average_subarray::maximum_average_subarray, maximum_consecutive_ones::maximum_consecutive_ones, maximum_number_vowels_substring::maximum_number_vowels_substring}, two_pointers::{container_with_most_water::container_with_most_water, is_subsequence::is_subsequence, max_number_ksum_pairs::max_number_ksum_pairs, move_zeros::move_zeros}};
 
 
 
@@ -169,4 +169,11 @@ fn test_determine_if_two_string_are_close(){
     let word2 = String::from("bca");
     let result = determine_if_two_strings_are_close(&word1, &word2);
     assert_eq!(result, true)
+}
+
+#[test]
+fn test_fequal_row_and_column_pairs(){
+    let grid = vec![vec![3,2,1],vec![1,7,6],vec![2,7,7]];
+    let result = equal_row_and_column_pairs(&grid);
+    assert_eq!(result, 1);
 }
