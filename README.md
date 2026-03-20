@@ -43,6 +43,7 @@
 | **Determine if Two Strings Are Close** | Medium | O(n+klogk) | O(k) | ✅ Completed |
 | **Equal Row and Column Pairs** | Medium | O(n^2) | O(n) | ✅ Completed |
 | **Removing Stars From a String** | Medium | O(n) | O(n) | ✅ Completed |
+| **Asteroid Collision** | Medium | O(n) | O(n) | ✅ Completed |
 
 ---
 
